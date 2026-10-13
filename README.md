@@ -16,7 +16,7 @@ CVR over OSC.
 │  ┌───▼───────────────────┐   │  400x400   │ │   "Wireless/IP Camera"  │ │
 │  │ vftstream daemon      │   │  ~30-60fps │ │   http://frame:8097/    │ │
 │  │  usbfs + libjpeg-turbo│   │            │ └─────────────────────────┘ │
-│  └───────────────────────┘   │            │      │ OSC (localhost)     │
+│  └───────────────────────┘   │            │      │ OSC (localhost)      │
 └──────────────────────────────┘            │      ▼                      │
                                             │   VRChat / Resonite / CVR   │
                                             └─────────────────────────────┘
