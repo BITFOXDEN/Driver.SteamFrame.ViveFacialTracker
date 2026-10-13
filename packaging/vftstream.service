@@ -1,0 +1,13 @@
+[Unit]
+Description=Steam Frame VFT MJPEG streamer (vftstream)
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/vftstream --ini /etc/vftstream.ini
+Restart=always
+RestartSec=3
+Nice=-10
+
+[Install]
+WantedBy=multi-user.target

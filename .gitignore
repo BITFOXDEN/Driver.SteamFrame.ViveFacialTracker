@@ -1,0 +1,12 @@
+# Build outputs
+/vftstream
+*.o
+*.d
+
+# Captures and debug dumps
+*.pcap
+*.bmp
+*.pgm
+*.png
+*.jpg
+frame.bin
