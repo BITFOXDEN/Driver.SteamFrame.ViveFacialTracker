@@ -1,4 +1,4 @@
-# vftstream
+# Vive Facial Tracker Streaming Daemon for Steam Frame
 
 A small native daemon for the **Steam Frame (SteamOS, ARM64)** that captures the
 IR camera of a locally plugged-in **VIVE Facial Tracker** and serves it as a live
